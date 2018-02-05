@@ -7,24 +7,35 @@
 body {
 	font-family: Verdana;
 	background-color: black;
-}
-
-.centerText {
 	text-align: center;
 }
 
-#header {
+h1{
 	font-weight: normal;
 	font-size: 50px;
 	color: white;
-	padding: 20px;
 }
 
-.link {
-	padding: 10px;
-}
-
-.link a{
+p a{
 	color: aquamarine;
 	font-size: 16px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 42px;
+	color: white;
+}
+
+.grayFont {
+	color: gray;
+}
+
+p.grayFont {
+	font-size: 21px;
+}
+
+#footer {
+	text-align: right;
+	color: white;
 }
